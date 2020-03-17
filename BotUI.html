@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GUIDANCE BOT</title>
+        <style>
+
+body {
+  background-image: url('nuces6.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+                           .conversation-container .header{
+                background-color: rgb(0, 128, 255) !important;
+            }
+            .conversation-container .toggle-fullscreen-button{
+                background-color: rgb(0, 128, 255) !important;
+            }
+            .conversation-container .close-button{
+                background-color: rgb(0, 128, 255) !important;
+            }
+            .launcher{
+                background-color: rgb(0, 128, 255) !important;
+            }
+            .conversation-container .client {
+                background-color: rgb(0, 0, 255) !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="webchat"/>
+        <script src="https://storage.googleapis.com/mrbot-cdn/webchat-latest.js"></script>
+        <script>
+        WebChat.default.init({
+            selector: "#webchat",
+            customData: {"userId": "123"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+            socketUrl: "http://localhost:5005",
+            socketPath: "/socket.io/",
+            title: "GUIDANCE BOT",
+            subtitle: "Nuces Assistance",
+            inputTextFieldHint: "Type a message...",
+            connectingText: "Waiting for server...",
+            hideWhenNotConnected: false,
+            fullScreenMode: true,
+            showFullScreenButton: true,
+            profileAvatar: "nuces.png",
+            openLauncherImage: '1.svg',
+            closeLauncherImage: 'nuces.png',
+            displayUnreadCount: true, // --> [view](./assets/unread_count_pastille.png)
+            showMessageDate: false,
+            tooltipPayload: '/get_tooltip',
+            tooltipDelay: 1000,
+            customMessageDelay: (message) => {
+            if (message.length > 100) return 2000;
+            return 1000;
+            },
+            params: {
+            images: {
+                dims: {
+                width: 300,
+                height: 200,
+                }
+            },
+            storage: "session"
+            },
+        })
+        </script>
+    </body>
+</html>

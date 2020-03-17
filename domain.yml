@@ -1,0 +1,370 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - scholarship
+  - summer_warning
+  - admission_schedule
+  - past_papers
+  - admission
+  - admission2
+  - NTS
+  - fast
+  - job_rate
+  - NAT
+  - social_events
+  - tests_conducted
+  - apply
+  - fee_structure
+  - offered_programs
+  - hostel
+  - test_pattern
+  - negative_marking
+  - evening_classes
+  - sports_seats
+  - self_finance
+  - domicile
+  - aggregate
+  - academic_period
+  - Warning
+  - Fyp_Registration
+  - Transfer
+  - GPA_W
+  - GPA_I
+  - GPA
+  - credit_hour
+  - classes
+  - Admission_of_former
+  - awaited_admission
+  - semester_week
+  - summer_campus
+  - summer_withdraw
+  - new_summer
+  - improve_gpa
+  - freezing_semester
+  - Rechecking_paper
+  - degree_duration
+  - spring_admission
+  - withdraw_course
+  - medals
+  - out_of_scope
+  - summer_courses
+  - career_office
+  - deen
+  - headquarter
+  - fast_lhr_address
+  - fast_khi_address
+  - fast_pesh_address
+  - fast_fsd_address
+  - library
+  - cafeteria
+  - mosque
+  - auditorium
+  - best_campus
+  - academic_office
+  - admin_office
+  - students_affair
+  - hod_office
+  - director_office
+  - contacts
+  - fast_isb_address
+  - graduation
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_scholar
+- utter_summer
+- utter_events
+- utter_schedule
+- utter_job
+- utter_fastuni 
+- utter_sample
+- utter_recruit
+- utter_summer_courses
+- utter_admins
+- utter_nts
+- utter_nat
+- utter_graduate
+- utter_tests
+- utter_apply
+- utter_fee
+- utter_programs
+- utter_hostel
+- utter_pattern
+- utter_negative
+- utter_evening
+- utter_sports
+- utter_self
+- utter_domicile
+- utter_aggregate
+- utter_period
+- utter_Warning
+- utter_fyp
+- utter_Transfer
+- utter_gpaw
+- utter_gpai
+- utter_gpa
+- utter_credit
+- utter_class
+- utter_former
+- utter_awaited
+- utter_semester
+- utter_campus
+- utter_sum
+- utter_new
+- utter_improve
+- utter_freezing
+- utter_Rechecking
+- utter_degree
+- utter_spring
+- utter_withdraw
+- utter_medal
+- utter_career
+- utter_deen
+- utter_headquarter
+- utter_lhr
+- utter_khi
+- utter_pesh
+- utter_fsd
+- utter_library
+- utter_cafeteria
+- utter_mosque
+- utter_auditorium
+- utter_bestcampus
+- utter_academic
+- utter_admin
+- utter_students
+- utter_hod
+- utter_director
+- utter_contacts
+- utter_isb
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Fast Islamabad."
+
+  utter_scholar:
+  - text: "yes scholarship/Financial Aid/Study loan are available at fast nuces. Visit to learn about them at: http://nu.edu.pk/Admissions/Scholarship"
+  - text: "YES, Scholarships/Financial Aid/Study loan are available at fast nuces. Visit to learn about them at: http://nu.edu.pk/Admissions/Scholarship"
+  utter_summer:
+  - text: "YES, warning does increment and decrement in summer semester."
+ 
+  utter_schedule:
+  - text: " Admission are opened once in a year in May/June/July/August. To see the admission schedule and test dates please visit this link  https://www.nu.edu.pk/Admissions/Schedule"
+  
+  utter_sample:
+  - text: "You can get an idea from the past papers.for past papers visit this link https://www.nu.edu.pk/Admissions/TestPattren"
+
+  utter_recruit:
+  - text: "Minimum criteria to apply is 60%. Furthur eligibility criteria could be reffered at http://nu.edu.pk/Admissions/EligibilityCriteria"
+  
+  utter_admins:
+  - text: "Minimum criteria for A-levels students to apply is 60%(Equivalance). Furthur eligibility criteria could be reffered at http://nu.edu.pk/Admissions/EligibilityCriteria"
+  
+  utter_nts:
+  - text: "NTS tests are accepted. See test months for NTS at http://nu.edu.pk/Admissions/EligibilityCriteria"
+  
+  utter_nat:
+  - text: "NAT test is conducted by FAST at FAST. To get information about NAT visit http://nu.edu.pk/Admissions/EligibilityCriteria"
+  
+  utter_tests:
+  - text: "FAST NUCES accepts NAT(NU test)/SAT/NTS."
+  
+  utter_apply:
+  - text: "To apply at FAST NUCES follow link http://nu.edu.pk/Admissions/HowToApply"
+  
+  utter_fee:
+  - text: "Fee structure can be viewed at http://nu.edu.pk/Admissions/FeeStructure"
+  
+  utter_programs:
+  - text: "BS,MS,PHD Degrres are offered at FAST NUCES. Detailed programs can be viewed at http://nu.edu.pk/Degree-Programs"
+  
+  utter_hostel:
+  - text: "No on campus hostel is available at any campus except for Faisalabad. But you could avail services of Student's affair office in finding a few near campus."
+  
+  utter_pattern:
+  - text: "English,Maths,IQ and physics are included in NU test. For detailed weightage visit: http://nu.edu.pk/Admissions/TestPattren"
+  
+  utter_negative:
+  - text: "Yes, There will be negative marking in NAT(NU test)."
+  
+  utter_evening:
+  - text: "No evening classes are offered at FAST NUCES."
+  
+  utter_sports:
+  - text: "No sports seats are available at FAST NUCES."
+  
+  utter_self:
+  - text: "No self-finance seats are offered at FAST NUCES."
+  
+  utter_domicile:
+  - text: "Domicile is not needed at the time of test."
+  
+  utter_aggregate:
+  - text: "It depends on current year and campus aggregate. Some previous year aggregates of Islamabad campus are (2017-62.98),(2018-61.2),(2019-60.2)."
+  
+  utter_period:
+  - text: "Academic period starts from August and Ends in June (Excluding Summer semester). Detailed schedule is available at: http://nu.edu.pk/Admissions/Schedule"
+  
+  utter_Warning:
+  - text: " CGPA below 2 results in increment in warning counts. 3 consective warning counts will result in cancellation of admission."
+  
+  utter_fyp:
+  - text: "Final Year Project (FYP) is offered in the second last regular semester. It spans over two semesters (FYP-I and FYP-II). A student must have passed all courses shown in the study plan of the degree program (up to the second last semester) and his warning count must be zero to register for FYP-I. Concession of 2 courses will be granted as per request. Minimum credit hours required are 92 for fyp registration."
+  
+  utter_Transfer:
+  - text: "Any student with credits earned at other institution(s), under formally accredited programs, aspiring for admission into a degree program at NUCES, has to qualify the merit so determined by the admission test for that year for the respective degree program."
+  
+  utter_gpaw:
+  - text: "W means withdraw. courses which are withdrawn before final exams will be marked W in transcript and it doesn't affect gpa in any case."
+  
+  utter_gpai:
+  - text: "I means awaiting grade. Grades that are not yet updated are marked I."
+  
+  utter_gpa:
+  - text: "CGPA is calculated as the weighted average for all semesters cumulatively using grade points of all the courses taken by a student."
+  
+  utter_credit:
+  - text: "One credit hour means teaching a theory course for one classroom-teaching hour each week throughout the semester."
+  
+  utter_class:
+  - text: " Duration of classes is usually 1 hour (3 classes/week) for core courses and 1.5 hour (2 classes/week) for electives."
+  
+  utter_former:
+  - text: "A former student of the university seeking readmission in an undergraduate program can do so by taking the relevant admission test. After qualifying for the admission on merit, the student is admitted as a NEW student."
+  
+  utter_awaited:
+  - text: "A new admission is closed if an awaited result does not meet the eligibility criteria of a particular degree program."
+  
+  utter_semester:
+  - text: "A semester comprises of 16 weeks including Mid terms and excluding final exams."
+  
+  utter_campus:
+  - text: "Yes, Students are allowed to register course in any campus of NUCES."
+  
+  utter_sum:
+  - text: "A student can withdraw from a summer course on or before the last day of classes."
+  
+  utter_summer_courses:
+  - text: "A student can register 2 old courses at max."
+  
+  utter_new:
+  - text: "A student cannot register for a new course. Exception to this rule is granted when an elective course is being offered by a distinguished scholar or professional who is only available during summer."
+  
+  utter_improve:
+  - text: "A student may repeat any course to improve CGPA."
+  
+  utter_freezing:
+  - text: "A student may request freezing of his/her admission for up to 2 semesters along with prescribed Semester Freeze charges."
+  
+  utter_Rechecking:
+  - text: "A student who has not viewed his final exam paper in the scheduled paper viewing session may also request rechecking of the final examination by paying the prescribed fee."
+  
+  utter_degree:
+  - text: "A student's admission will be cancelled automatically after completion of maximum duration (7 years) allowed to earn a degree unless extension is approved by competent authority."
+  
+  utter_spring:
+  - text: "No spring admissions at FAST NUCES."
+  
+  utter_fastuni:
+  - text: "FAST is the best university for computer science in Pakistan. It was founded as a Federally Chartered University in July 2000, the National University of Computer and Emerging Sciences is a premier University of Pakistan. FAST is famous for quality education and impact of its students in the development of local software and other industries. The university has five modern campuses at Karachi, Lahore, Islamabad, Peshawar, and Chiniot-Faisalabad. These campuses deliver world-class educational environment and entertaining facilities to about 9,000 students, around one quarter are female."
+  - text: "Founded as a Federally Chartered University in July 2000, the National University of Computer and Emerging Sciences is a premiere University of Pakistan, renowned for quality and impact of its students in the development of local software and other industries. The university has five modern campuses at Karachi, Lahore, Islamabad, Peshawar and Chiniot-Faisalabad. These campuses provide world class educational environment and recreational facilities to about over 11,000 students, around one quarter are female and over 500 skilled faculty members."
+  
+  utter_withdraw:
+  - text: "Application for withdrawal from a course must be countersigned by the parent or the guardian of the student. Request for withdrawal must be approved by the HoD."
+  
+  utter_job:
+  - text: "Job rate of fast nuces is almost 100%"
+
+  utter_medal:
+  - text: "Eligibility for the medals and certificate is as follows:  a) Student must have passed the prescribed course load (for his/her batch) in that semester  b) Student must not have failed, repeated or withdrawn from a course in that semester c) Position is determined by the GPA earned in that semester. d) Student must have earned GPA of 3.00 or higher in that semester."
+
+  utter_events:
+  - text: "NASCON,JAZBA,OLYMPIAD, and other events are held annually in each campus."
+
+  utter_career:
+  - text: "Career service office is located at Ground floor Room# 04"
+
+  utter_deen:
+  - text: "Mr. Wasim sajjad is the chancellor of university"
+
+  utter_headquarter:
+  - text: "University Headoffice. FAST House, Rohtas Road, G-9/4. Islamabad Pakistan"
+
+  utter_lhr:
+  - text: "852-B Milaad St, Block B Faisal Town, Lahore, Punjab 54000"
+
+  utter_khi:
+  - text: "Main Campus: St-4 Sector 17-D On National Highway Karachi,Pakistan.  City Campus:  22-G, Block-6,PECHS, Karachi"
+
+  utter_pesh:
+  - text: "160 Industrial Estate, Hayatabad, Peshawar, Pakistan."
+
+  utter_fsd:
+  - text: "FAST-NU, FAST Square, 9 Km from Faisalabad Motorway Interchange towards Chiniot"
+
+  utter_library:
+  - text: "Library facility is available in every campus"
+
+  utter_cafeteria:
+  - text: "Cafeteria facility is available in every campus"
+
+  utter_mosque:
+  - text: "Mosque facility is available in every campus"
+
+  utter_auditorium:
+  - text: "Every campus has its own Auditorium"
+
+  utter_bestcampus:
+  - text: "Every campus is good at its own. In terms of merit lahore has high merit."
+
+  utter_academic:
+  - text: "Academic office is situated at A-208"
+
+  utter_admin:
+  - text: "You can visit Admin office in C-201"
+
+  utter_students:
+  - text: "Student's affair department is located in Ground floor Room#01"
+
+  utter_hod:
+  - text: "Every Department has its respective HOD. You can meet them through open door policy in their office hours."
+
+  utter_director:
+  - text: "Director office is at ground floor Room#01"
+
+  utter_contacts:
+  - text: "You can contact Fast Nuces at 111-128-128"
+
+  utter_isb:
+  - text: "Fast islamabad is located at:  A.K Brohi Road, H 11/4, Islamabad"
+
+  utter_graduate:
+  - text: "Maximum period allowed for graduation is 7 years with 130 credit hours for bachelors degree"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
